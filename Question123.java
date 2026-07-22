@@ -22,4 +22,14 @@ public class Question123 {
         return sell2;
     }
 
+    public static void main(String[] args) {
+
+        Question123 obj = new Question123();
+
+        int[] prices = {3, 3, 5, 0, 0, 3, 1, 4};
+
+        int result = obj.maxProfit(prices);
+
+        System.out.println("Maximum Profit = " + result);
+    }
 }
