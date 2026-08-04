@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Question3378 {
+public class Question3731 {
 
     public List<Integer> findMissingElements(int[] nums) {
 
